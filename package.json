@@ -1,0 +1,25 @@
+{
+  "name": "tcp-ws-bridge",
+  "version": "1.0.0",
+  "description": "Forward TCP to Websocket",
+  "bin": {
+    "ws-tcp-bridge": "./tcp-ws-bridge"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haitacloveu2/tcp-ws-bridge.git"
+  },
+  "author": "hainv200697@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haitacloveu2/tcp-ws-bridge/issues"
+  },
+  "homepage": "https://github.com/haitacloveu2/tcp-ws-bridge#readme",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "ws": "^8.12.0"
+  }
+}
