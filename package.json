@@ -1,9 +1,10 @@
 {
   "name": "tcp-ws-bridge",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Forward TCP to Websocket",
+  "main": "tcp-ws-bridge.js",
   "bin": {
-    "ws-tcp-bridge": "./tcp-ws-bridge"
+    "tcp-ws-bridge": "tcp-ws-bridge.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
